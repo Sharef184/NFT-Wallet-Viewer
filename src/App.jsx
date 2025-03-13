@@ -1,8 +1,8 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import axios from "axios";
 import { Container, Row, Col, Alert } from "react-bootstrap";
-import debounce from "lodash/debounce";
-// Componnets :
+import debounce from "lodash";
+// Components :
 import AddressInput from "./components/AddressInput";
 import WalletInfo from "./components/WalletInfo";
 import TransactionList from "./components/TransactionList";
